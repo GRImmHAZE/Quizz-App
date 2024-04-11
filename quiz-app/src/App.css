@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.nav-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px 16px 0px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.question-nav {
+  padding: 0px 16px 0px 16px;
+}
+
+.nav-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.navbutt {
+  background-color: transparent;
+  border: none;
+}
+
+.liststyle {
+  list-style-type: none;
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
+}
+
+/* .option-button {
+  transition: background-color 0.3s ease;
+}
+
+.option-button.selected {
+  background-color: #007bff;
+} */
+
+.progress {
+  border-bottom: 1px solid;
+  --bs-progress-height: 6px;
+  --bs-progress-bg: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 0px;
+}
+
+.body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 16px; */
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.question-container {
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+}
+
+.question {
+  font-size: 3rem;
+  font-weight: 300;
+  text-align: left;
+}
+
+.options-container {
+  width: 100%;
+  /* max-width: 400px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center options horizontally */
+  background-color: #007bff; /* Blue background color */
+  padding: 70px 16px 40px 16px; /* Add padding for spacing */
+  margin-top: 20px; /* Add margin for spacing */
+}
+
+.option-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 1px solid #98caff;
+  border-radius: 0px;
+  background-color: transparent;
+  color: #fff; /* Change text color to white */
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  cursor: pointer;
+}
+
+/* .option-button:hover {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+} */
+
+.option-button.selected {
+  background-color: #fff;
+  color: #007bff;
+  border-color: #fff;
+}
